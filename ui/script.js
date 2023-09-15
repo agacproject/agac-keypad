@@ -10,10 +10,6 @@ window.addEventListener('message', function(event){
     }
 })
 
-// setInterval(() => {
-//     console.log(password);
-// }, 1000);
-
 function numpad(pad) {
     if (pad == 'clear') {
         if (checking == false) {
@@ -94,14 +90,3 @@ $(document).on('keyup',function(evt) {
         defaultValue()
     }
 });
-
-// setInterval(() => {
-//     let length = $('#passwordInput').val().length;
-//     if (length < 4) {
-//         $('#status').removeClass('bg-green-500').addClass('bg-red-900');
-//         $('#status').text('WAITING');
-//     } else if (length == 4) {
-//         $('#status').removeClass('bg-red-900').addClass('bg-green-500');
-//         $('#status').text('READY');
-//     }
-// }, 100);
