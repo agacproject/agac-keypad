@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cafcb3e7a8.js" crossorigin="anonymous"></script>
+    <title>deniz-keypad</title>
+</head>
+
+<body class="font-inter select-none hidden">
+    <div class="flex justify-center items-center h-screen w-screen">
+        <div id="keypadBody" class="w-[420px] h-[650px] bg-[#2e2e2e] rounded-xl flex justify-center">
+            <div class="block">
+                <div class="flex justify-center">
+                    <input id="passwordInput" disabled type="password" pattern="\d*" maxlength="4" class="h-[90px] w-[300px] text-center text-5xl mt-8 bg-gray-100 text-gray-900 rounded-lg outline-none font-bold">
+                </div>
+                <div class="flex justify-center">
+                    <div id="status" class="text-center text-2xl bg-red-900 text-black rounded-lg mb-2 mt-4 outline-none font-bold px-4 py-1">WAITING</div>
+                </div>
+                <div class="flex justify-center flex-wrap">
+                    <div onclick="numpad('1')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">1</div>
+                    <div onclick="numpad('2')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">2</div>
+                    <div onclick="numpad('3')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">3</div>
+                    <div onclick="numpad('4')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">4</div>
+                    <div onclick="numpad('5')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">5</div>
+                    <div onclick="numpad('6')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">6</div>
+                    <div onclick="numpad('7')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">7</div>
+                    <div onclick="numpad('8')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">8</div>
+                    <div onclick="numpad('9')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">9</div>
+                    <div onclick="numpad('clear')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-6 py-8 m-2 cursor-pointer">CLEAR</div>
+                    <div onclick="numpad('0')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-12 py-8 m-2 cursor-pointer">0</div>
+                    <div onclick="numpad('enter')" class="text-center text-2xl bg-gray-400 text-black rounded-lg mt-2 outline-none font-bold px-6 py-8 m-2 cursor-pointer">ENTER</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
