@@ -1,5 +1,6 @@
 # deniz-keypad
 Basic keypad script.
+made by forealdeniz.
 
 Support: discord.gg/teamcloud
 
