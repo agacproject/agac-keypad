@@ -20,8 +20,8 @@ end
 -- RegisterCommand("keypad",function()
 --     testPassword = 1234
 --     print('password: '..testPassword)
---     exports['deniz-keypad']:PasswordInput(testPassword, function(status)
---         if status == true then
+--     exports['deniz-keypad']:PasswordInput(testPassword, function(data)
+--         if data.status == true and data.given == testPassword then
 --             print('approved')
 --         else 
 --             print('denied')
