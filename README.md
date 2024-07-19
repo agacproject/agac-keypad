@@ -1,7 +1,4 @@
-# deniz-keypad
-Basic keypad script.
-made by forealdeniz.
+# agac-keypad
+Bu eklenti, [denizwp](https://github.com/forealdeniz) tarafından yapılmıştır.
 
-Support: discord.gg/teamcloud
-
-Preview: https://streamable.com/e2gjt6
+Video: https://streamable.com/e2gjt6
